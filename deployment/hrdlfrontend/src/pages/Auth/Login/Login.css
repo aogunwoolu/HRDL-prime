@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  /* Whatever width you want */
+  background-color: black;
+  padding: 70px 100px 70px 100px;
+  border-radius: 10px;
+  background: 
+    /* linear-gradient(135deg,#0000 33%,rgba(255,255,255,0.1) 50%,#0000 66%) */
+    black;
+  background-size:300% 100%;
+  /* animation: shine 5s infinite; */
+}
+
+html{
+  background-image: url("../Auth.gif");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  min-height:100%;
+}
+
+#label{
+  color: white;
+  font-size: 10px;
+}
+
+#loginInput{
+  background-color: black;
+  border: 0px;
+  border-bottom: medium solid white;
+  border-radius: 0%;
+}
+
+#loginInput:focus{
+  box-shadow: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.title{
+  padding-bottom: 20px;
+  color: white;
+}
+
+.img{
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+p, a{
+  color: white;
+  font-size: 18px;
+}
+
+a:hover{
+  color: #ffb803;
+  text-decoration: none;
+}
+
+.tag:first-of-type {
+  border-radius: 50px 0px 0px 50px;
+}
+.tag:last-of-type {
+  border-radius: 0px 50px 50px 0px;
+}
+.tag:last-of-type>.slider-button {
+  display:none !important;
+}
+
+@keyframes shine {
+  0% {
+    background-position: right;    
+  }
+  /*100% {
+    background-position: left; it's the default value, no need to define it
+  }*/
+}

@@ -1,0 +1,70 @@
+- model: HRDL.TradingPair
+  pk: 1
+  fields:
+    pairName: BTC/USDT
+    fullNamePair: Bitcoin/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 2
+  fields:
+    pairName: ETH/USDT
+    fullNamePair: Ethereum/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 3
+  fields:
+    pairName: BNB/USDT
+    fullNamePair: Binance-coin/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 4
+  fields:
+    pairName: SOL/USDT
+    fullNamePair: Solana/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 5
+  fields:
+    pairName: ADA/USDT
+    fullNamePair: Cardano/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 6
+  fields:
+    pairName: XRP/USDT
+    fullNamePair: XRP/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 7
+  fields:
+    pairName: DOT/USDT
+    fullNamePair: Polkadot/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 8
+  fields:
+    pairName: DOGE/USDT
+    fullNamePair: Dogecoin/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 9
+  fields:
+    pairName: SHIB/USDT
+    fullNamePair: Shiba Inu/Tether
+    modelPath: null
+    lastTrained: 2018-07-06
+- model: HRDL.TradingPair
+  pk: 10
+  fields:
+    pairName: LTC/USDT
+    fullNamePair: Litecoin/Tether
+    modelPath: null
+    lastTrained: 2018-07-06

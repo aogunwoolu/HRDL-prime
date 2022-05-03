@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.s-outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.s-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.s-inner {
+  padding-right: 10vw;
+  padding-left: auto;
+
+  margin-left: auto;
+  margin-right: calc(auto - 10%);
+  width: 1500px;
+  height: 80%;
+  /* Whatever width you want */
+  background-image: url("regbg.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  -webkit-background-size: auto ;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto !important;
+  background-position: bottom left; 
+  border-radius: 10px;
+}
+
+html{
+  background-image: url("../Auth.gif");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  min-height:100%;
+}
+
+#label{
+  color: white;
+  font-size: 10px;
+}
+
+#loginInput{
+  background-color: black;
+  border: 0px;
+  border-bottom: medium solid white;
+  border-radius: 0%;
+}
+
+#loginInput:focus{
+  box-shadow: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.title{
+  padding-bottom: 20px;
+  color: white;
+  margin: 0 0 0 0;
+}
+
+.info{
+  margin: 0 0 0 0;
+  width: 600px;
+}
+
+.sub-info{
+  padding-bottom: 20px;
+  color: white;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: small;
+}
+
+.title, .info, .sub-info{
+  word-wrap: break-word;
+}
+
+.img{
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+p, a{
+  color: white;
+  font-size: 18px;
+}
+
+a:hover{
+  color: #ffb803;
+  text-decoration: none;
+}
+
+.register-track{
+  float:left;
+  margin-left: 0px;
+  padding-left: 0px;
+  height: 100px;
+  width: 3vw
+}
+
+.register-step{
+  min-width: 500px;
+  max-width: 1000px;
+  padding-right: 10vw;
+  padding-left: 0px;
+  padding: 30px 0px 0px 0px;
+}
+
+.s-text-center{
+  padding: 0px 0px 3px 70px;
+}
+
+.back{
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0px 0px 10px ;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.back:hover, .back:focus, .back:active,  .back:visited{
+  background-color: transparent;
+  border-color: transparent;
+  outline: transparent;
+  color: #ffb803;
+}
+
+.white-text{
+  color: white;
+}
+
+.page1, .components{
+  height: 80%;
+}
+
+.step-icons{
+  padding-left: 40px;
+}
+
+.info{
+  padding: 0 0 0 0;
+  margin: 0 20px 20px 0;
+}
+
+#SignUpInput{
+  background-color: black;
+  border: 0px;
+  border-bottom: medium solid white;
+  border-radius: 0%;
+}
+
+#SignUpInput:focus{
+  box-shadow: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.exchange{
+  width: 600px;
+}
+
+.login-link{
+  margin-left: 150px;
+}
+
+.scroll{
+  max-height: 400px;
+  overflow-y: scroll;
+  transform: scaleX(-1);
+}
+
+.sleeve{
+  padding-left: 20px;
+  transform: scaleX(-1);
+}
+
+div.scrollmenu {
+  width: 500px;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+div.scrollmenu div {
+  display: inline-block;
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 0 5px;
+  margin: 0 2px;
+  text-decoration: none;
+}
+
+div::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #000000;
+}
+
+div::-webkit-scrollbar {
+  width: 12px;
+  background-color: #000000;
+}
+
+div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  border: 1px solid #ffb800;
+  background-color: #000000;
+}

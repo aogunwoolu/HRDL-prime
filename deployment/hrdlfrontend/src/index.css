@@ -1,0 +1,67 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #272727;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#centerOuter{
+  width:100%;
+  text-align: center;
+}
+
+#HRDLButton{
+  display: table;
+  width: 250px;
+  background-image: linear-gradient(to right, #ffb700 0%, #ffcc49  51%, #ffb700  100%);
+  margin: 0 auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 50px;
+  display: block;
+  border-color: black;
+  opacity: 1;
+}
+
+#HRDLButton:hover {
+  background-position: right;
+  color: #fff;
+  text-decoration: none;
+}
+
+.center-text{
+  width:100%;
+  text-align: center;
+}
+
+.center-item{
+  padding:1em;
+  text-align: center;
+  display:inline-block;
+  text-decoration: none !important;
+  margin:0 auto;
+}
+
+.right-item{
+  float: right;
+  width: 300px;
+  padding-left: 25%;
+}
